@@ -43,7 +43,7 @@ public class ListBags implements Serializable {
         return this.investment;
     }
 
-    public void setInvestment(Long calculatorId, Double sum) {
-        this.investment.put(calculatorId, sum);
+    public void setInvestment(Long activId, Double sum) {
+        this.investment.put(activId, sum);
     }
 }
